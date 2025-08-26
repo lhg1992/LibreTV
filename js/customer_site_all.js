@@ -33,11 +33,13 @@ const CUSTOMER_SITES = {
     },
     qvod:{
         api: 'https://gayapi.com/api.php/provide/vod',
-        name: '快播资源'
+        name: '快播资源',
+        adult: true
     },
     ytzy:{
         api: 'https://apiyutu.com/api.php/provide/vod',
-        name: '玉兔资源'
+        name: '玉兔资源',
+        adult: true
     },
     hsckzy:{
         api: 'https://hsckzy.vip/api.php/provide/vod',
