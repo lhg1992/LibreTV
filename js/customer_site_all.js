@@ -20,7 +20,7 @@ const CUSTOMER_SITES = {
         name: '茅台资源'
     },
     dbzy:{
-        api: 'https://caiji.dbzy.tv/api.php/provide/vod',
+        api: 'https: //caiji.dbzy.tv/api.php/provide/vod',
         name: '豆瓣资源'
     },
     iqyzy:{
@@ -31,6 +31,18 @@ const CUSTOMER_SITES = {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度资源'
     },
+    qvod:{
+        api: 'https://gayapi.com/api.php/provide/vod',
+        name: '快播资源'
+    },
+    ytzy:{
+        api: 'https://apiyutu.com/api.php/provide/vod',
+        name: '玉兔资源'
+    },
+    hsckzy:{
+        api: 'https://hsckzy.vip/api.php/provide/vod',
+        name: '红手指'
+    }
 };
 
 // 调用全局方法合并
